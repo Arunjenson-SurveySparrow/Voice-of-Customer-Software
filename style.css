@@ -14,11 +14,23 @@
     --backgroundblack:#33393F;
     --backgroundblue:#F5FDFF;
 }
+.poppins{
+    font-family: 'Poppins', sans-serif;;
+}
+.center{
+    text-align: center;
+}
+.inter{
+    font-family: 'Inter', sans-serif;
+
+}
+p{
+    font-family: 'Inter', sans-serif;
+}
 .Main{
     max-width: 1274.33px;
     margin: 0 auto;
     /* border: 1px solid black; */
-   
 }
 /* Navbar */
 .nav-bar{
@@ -91,4 +103,114 @@
     font-weight: 400;
     width: 87px;
     margin-left: 1rem;
+}
+
+
+/* poster */
+
+.poster{
+    display: flex;
+    margin-top: 7.313rem;
+    max-width: 1274px;
+    height: 22.25rem;
+    margin-bottom: 9rem;
+}
+.poster-content{
+    width: 648px;
+    height: 100%;
+}
+.poster-image{
+    height: 100%;
+    width: 39.125rem;
+}
+.poster-content h2{
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 4.375rem;
+    /* border: 1px solid black; */
+    height:125px;
+    width: 648px;
+}
+.poster-content p {
+    font-weight: 500;
+    line-height: 2rem;
+    color: #0D1B1E;
+    margin: 32px 0;
+    width:74.5%;
+    height:55px;
+}
+.input-form{
+    height: 50px;
+    margin-bottom: 14px;
+}
+.email{
+border: 1px solid #D8D8D8;
+border-radius: 5px;
+font-size: 1rem;
+padding: 12px 47px 17px 16px;
+font-weight: 300;
+line-height: 19px;
+color: #BCBCBC;
+width: 268px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+color: #BCBCBC;
+    opacity: 1; /* Firefox */
+  }
+.poster-btn{
+    padding:8px 22px 12px 22px;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: var(--green);
+    color: white;
+    letter-spacing: 0.15;
+    line-height: 30px;
+    border: none;
+    width: 173px;
+    border-radius: 5px;
+    margin-left: 0;
+}
+
+.spanned {
+    height: 1rem;
+    width:445px;
+    font-weight:300;
+font-size:12px;
+line-height:14px;
+}
+
+/* survey-software */
+.survey-software{
+    margin: 0 82px 28px 83px;
+    /* border: 1px solid black; */
+    width: 1109px;;
+    height: 252px;
+}
+.software-head {
+font-size: 36px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+height: 41px;
+text-align: center;
+margin-bottom: 2rem;
+width: 885px;
+margin-left: 112px;
+}
+.survey-software p{
+   text-align: center;
+   width: 1109px;
+   height: 119px;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+margin-bottom: 28px;
+
+}
+.read-more{
+    margin-left: 507px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2rem;
 }
