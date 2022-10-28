@@ -31,6 +31,11 @@ p{
     max-width: 1274.33px;
     margin: 0 auto;
     /* border: 1px solid black; */
+   position: relative;
+
+}
+a:visited{
+    color: black;
 }
 /* Navbar */
 .nav-bar{
@@ -182,10 +187,10 @@ line-height:14px;
 
 /* survey-software */
 .survey-software{
-    margin: 0 82px 28px 83px;
-    /* border: 1px solid black; */
+    margin: 0 82px 252px 83px;
     width: 1109px;;
     height: 252px;
+    
 }
 .software-head {
 font-size: 36px;
@@ -197,6 +202,7 @@ text-align: center;
 margin-bottom: 2rem;
 width: 885px;
 margin-left: 112px;
+color: #0D1B1E;
 }
 .survey-software p{
    text-align: center;
@@ -206,11 +212,281 @@ font-size: 16px;
 font-weight: 400;
 line-height: 32px;
 margin-bottom: 28px;
-
 }
 .read-more{
     margin-left: 507px;
     font-weight: 600;
     font-size: 18px;
     line-height: 2rem;
+}
+.special-div{
+    max-width:1274px ;
+    border: 1px solid black;
+    margin-top: 104px;
+    background-color: #33393F;
+    color: white;
+    position: absolute;
+    bottom: -400px;
+}
+.special-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 61px 97px 55px 93px;
+    height: 188px;
+    text-align: center;
+}
+.special-item-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.special-item-1 h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    height: 20px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.special-item-1 p{
+font-size: 1.1rem;
+font-weight: 400;
+line-height: 22.5px;
+letter-spacing: 0px;
+padding: 0.7rem;
+padding-bottom: 0.5rem;
+
+}
+
+.special-item-1 img{
+    margin-top: 14px;
+ height: 48px;
+ width: 48px;
+}
+
+
+/* Survey-Application */
+
+.Survey-Application{
+    height: 1438px;
+    max-width: 1440px;
+    background-color:#F5FDFF;
+    padding-top: 260px;
+}
+.Application-container{
+    max-width: 1263px;
+    margin: 0 auto;
+}
+
+.Application-Container-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 184px;
+}
+.Application-Container-head h3{
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+margin-bottom: 2rem;
+width:698px ;
+height: 97px;
+}
+.Application-Container-head p{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+height: 55px;
+width: 967px;
+color: #0D1B1E;
+}
+.arrow-container{
+    max-width: 1252px;
+    height: 383px;
+    border: 1px solid black;
+    margin-top: 77px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0 auto;
+}
+.arrow-first{
+    height: 224px;
+    border: 1px solid black;
+    margin: 13px 77px 19px 55px;
+}
+.arrow-para{
+    height: 55px;
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+width: 967px;
+margin: 0 153px 72px 132px;
+
+}
+
+.grid{
+  align-content: center;
+  margin-right: 80px;
+  gap: 63px 23px;
+    display: grid;
+    grid-template-columns: repeat(3,194px);
+}
+.grid-container{
+    display: flex;
+    margin-top: 88px;
+    margin-right: 40px;
+    height: 395px;
+}
+.grid .grid-item img{
+    height: 48px;
+    width: 48px;
+  margin-bottom: 12px;
+}
+.grid-item{
+    height: 86px;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+}
+.grid-item p {
+    font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.grid-container img{
+    
+    width: 502px;
+    height: 353px;
+    /* margin-left: 93px; */
+   margin-bottom: 12px;
+    
+}
+
+/* Product */
+
+.Product{
+    max-width: 1275px;
+    margin: 0 auto;
+}
+.p-container{
+    margin: 104px 154px  104px 155px;
+    color: #0D1B1E;
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+max-width: 967px;
+}
+.product-header{
+    font-family: Inter;
+font-size: 22px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.product-content{
+    width: 720px;
+    height: 417px;
+    margin: 0 278px 178px 278px;
+    /* border: 1px solid black; */
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head i{
+    height: 2rem;
+    width:11px;
+    padding-right: 20px;
+}
+.head h3 {
+    height: 26px;
+    width: 481px;
+    margin-bottom: 24px;
+    margin-left: 120px;
+    margin-right: 104px;
+}
+hr{
+    margin-top: 2rem;
+    border: 1px solid #DEE4E5 ;
+}
+.product-content p{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+width: 652px;
+margin: 0 34px 0 34px ;
+}
+.body{
+    display: flex;
+    margin-top: 24px;
+    margin-left: 69px;
+    align-items: center;
+    width: 665px;
+}
+.body i{
+    margin-left: 59px;
+    padding-top: 3px;
+    width: 15px;
+    height: 2rem;
+    padding-right: 12px;
+}
+.body h3{
+    font-family: Inter;
+font-size: 22px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+height: 24px;
+width: 571px;
+/* margin-right: 59px; */
+/* border: 1px solid black; */
+}
+.body-2{
+    height: 32px;
+    width: 665px;
+    display: flex;
+    margin-left: 45px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    align-items: center;
+    
+}
+.body-2 h3{
+    font-family: Inter;
+font-size: 22px;
+font-weight: 600;
+line-height: 32px;
+text-align: center;
+margin-right: 20px;
+letter-spacing: 0em;
+width: 611px;
+}
+.body-2 i{
+    margin-left: 39px;
 }
