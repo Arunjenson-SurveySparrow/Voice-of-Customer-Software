@@ -583,6 +583,8 @@ border-bottom: 1px solid white;
 }
 
 
+
+
 /* features */
 .features{
     height: 2950px;
@@ -670,8 +672,241 @@ width: 626px;
 .last-row{
     margin-bottom: 177px;
 }
+
+
+/* customer-page */
 .customer-page{
-    height: 1692px;
-    max-width: 1274px;
-    margin: 0 auto;
+    height: 1622px;
+    /* 1692px */
+    background-color: #33393F;
+    color: white;
+}
+.heading{
+height: 287px;
+}
+.heading h3{
+    font-family: Inter;
+font-size: 36px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+padding: 104px 421px 0 421px;
+
+}
+.heading p{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+margin: 0.9rem 208px 0 209px; 
+}
+.customer-grid{
+    max-width: 1202px;
+    margin: 107px  155px 0 83px;
+    /* border: 1px solid white; */
+    height: 1004px;
+}
+.grid-row{
+    height: 284px;
+    width: 100%;
+}
+.grid-info{
+    display: flex;
+    /* border: 1px solid black; */
+}
+.grid-info img{
+    height: 48px;
+    width: 48px;
+    margin-right: 24px;
+}
+.grid-row{
+    display: grid;
+    grid-template-columns: repeat(2,554px);
+    grid-gap: 108px 94px;
+}
+.grid-content h4{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;
+}
+.grid-content p{
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+}
+.grid-info:nth-child(5){
+    margin-top: -2rem;
+}
+/* special div-3 */
+.special-div-3
+{
+    margin: 90px 83px 0 83px;
+    height: 278px;
+    max-width:1275px;
+    background-color: #1AB885;
+    color: white;
+}
+.special-div-3 h2{
+    font-family: Inter;
+font-size: 28px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+padding: 60px 227px 2rem 205px;
+}
+
+.special-div-3-input{
+    /* border: 1px solid black; */
+    width: 505px;
+    height: 56px;
+    margin: 0  384.7px 12px 384.7px;
+    outline: none;
+ 
+}
+.special-div-3-input input{
+    width: 310px;
+    height: 100%;
+    padding: 1rem 68.95px 17px 0.99rem;
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+border-radius:  5px  0 0   5px;
+}
+.special-div-3-input button{
+    margin-left: -5px;
+    font-family: Inter;
+    border-radius: 0  5px 5px 0;
+    padding: 15.96px 26.98px 18.09px 33.97px;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.78px;
+letter-spacing: 0px;
+text-align: center;
+border: none;
+background-color: #0D1B1E;
+color: white;
+}
+.special-spanned-2 {
+margin: 12px 411.68px 64px 389.69px;
+width: 473px;
+height: 18px;
+font-family: Inter;
+font-size: 13.5px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0px;
+text-align: left;
+}
+.special-spanned-2 b {
+    font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.94px;
+text-decoration: none;
+border-bottom: 1px solid white;
+}
+
+/* reviews */
+
+.reviews-container{
+    height: 1200px;
+   max-width: 1376px;
+   margin: 0 auto;
+}
+.review-head{
+    padding: 301px 388px 2rem 390px ;
+}
+.review-head h3{
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+width: 598px;
+height: 41px;
+padding: 0 1rem;
+}
+.review-head p{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: 2rem;
+}
+
+.banner-container{
+    /* border: 1px solid black; */
+    height: 208px;
+    width: 922.54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 87px 226px 160px 227.46px;
+}
+.banner-container img:first-child{
+    height: 160.94px;
+    width: 159.04px;
+}
+.banner-container img:nth-child(2){
+    height: 94px;
+    width: 299px;
+}
+.banner-header h4{
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: center;
+}
+.first-banner{
+    display: flex;
+    height: 29px;
+    justify-content: space-between;
+    margin:  104px 186.52px 124px 187px;
+}
+.second-banner{
+    display: flex;
+    height: 29px;
+    justify-content: space-between;
+    margin:  104px 213.68px 0px 214px;
+}
+.second-banner img:nth-child(3){
+    margin-left:19px ;
+}
+.customer-review h3{
+    margin: 160px 288px 64px 286px;
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.customer-review p {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Inter;
+font-size: 22px;
+font-weight: 300;
+line-height: 38px;
+margin: 0 214px 98px 213px;
+/* width: 949px; */
+text-align: center;
+height: 104p;
+
 }
