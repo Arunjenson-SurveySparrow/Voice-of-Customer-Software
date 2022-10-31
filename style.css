@@ -627,7 +627,7 @@ font-weight: 700;
 line-height: 56px;
 letter-spacing: 0em;
 text-align: center;
-margin: 60px 227px 2rem 205px;
+margin: 60px 227px 1.15rem 205px;
 }
 .special-div-2-input{
     /* border: 1px solid black; */
@@ -647,6 +647,7 @@ font-weight: 400;
 line-height: 22px;
 letter-spacing: 0px;
 text-align: left;
+border: none;
 border-radius:  5px  0 0   5px;
 }
 .special-div-2-input button{
@@ -863,7 +864,7 @@ line-height: 56px;
 letter-spacing: 0em;
 text-align: center;
 color: white;
-padding: 60px 227px 2rem 205px;
+padding: 60px 227px 1.15rem 205px;
 }
 
 .special-div-3-input{
@@ -884,6 +885,8 @@ font-weight: 400;
 line-height: 22px;
 letter-spacing: 0px;
 text-align: left;
+border: none;
+
 border-radius:  5px  0 0   5px;
 }
 .special-div-3-input button{
