@@ -32,8 +32,8 @@ p{
    position: relative;
    
 }
-.Main,.survey-container,.Product,.feature-container,.customer-container,.reviews-container{
-    padding: 0 10px !important;
+.Main,.survey-container,.Product,.feature-container,.customer-container,.reviews-container,.survey-footer{
+    padding: 0 15px !important;
 }
 a:visited{
     color: black;
@@ -128,12 +128,12 @@ a:visited{
 .poster-content h2{
     font-weight: 700;
     font-size: 3.5rem;
-    line-height: 4.375rem;
+    line-height: 1.25;
     color: #0D1B1E;
 }
 .poster-content p {
     font-weight: 400;
-    line-height: 2rem;
+    line-height: 1.77;
     font-size: 19px;
     margin: 32px 0;
 }
@@ -194,7 +194,7 @@ b{
 .software-head {
 font-size: 36px;
 font-weight: 800;
-line-height: 56px;
+line-height: 1.555;
 letter-spacing: 0em;
 height: 41px;
 text-align: center;
@@ -207,7 +207,7 @@ color: #0D1B1E;
    height: 119px;
 font-size: 18px;
 font-weight: 400;
-line-height: 32px;
+line-height: 1.77;
 margin-bottom: 28px;
 }
 .survey-software a:link{
@@ -306,8 +306,8 @@ padding-bottom: 0.5rem;
     font-family: Poppins;
 font-size: 36px;
 font-weight: 700;
-line-height: 56px;
-letter-spacing: 0em;
+line-height: 1.555;
+
 margin-bottom: 2rem;
 text-align: center;
 width:698px ;
@@ -317,7 +317,7 @@ height: 97px;
     font-family: Inter;
 font-size: 18px;
 font-weight: 400;
-line-height: 32px;
+line-height: 1.77;
 text-align: center;
 margin-top: 1rem;
 height: 55px;
@@ -440,8 +440,7 @@ color: #0D1B1E;
     font-family: Inter;
 font-size: 18px;
 font-weight: 400;
-line-height: 32px;
-letter-spacing: 0em;
+line-height: 1.77;
 text-align: center;
 width: 967px;
 margin: 2rem auto
@@ -502,8 +501,8 @@ text-align: center;
     font-family: Inter;
 font-size: 18px;
 font-weight: 400;
-line-height: 32px;
-letter-spacing: 0em;
+line-height: 1.77;
+
 text-align: center;
 max-width: 967px;
 }
@@ -607,7 +606,7 @@ width: 611px;
     font-family: Poppins;
 font-size: 28px;
 font-weight: 700;
-line-height: 56px;
+line-height: 2;
 text-align: center;
 margin: 60px 227px 1.15rem 205px;
 }
@@ -679,15 +678,14 @@ border-bottom: 1px solid white;
     font-family: Poppins;
 font-size: 36px;
 font-weight: 700;
-line-height: 56px;
+line-height: 1.55;
 padding: 0 0.2rem;
 }
 .feature-container-1 p{
     font-family: Inter;
 font-size: 18px;
 font-weight: 400;
-line-height: 32px;
-letter-spacing: 0em;
+line-height: 1.77;
 text-align: center;
 margin-top: 1.99rem;
 margin-right: 20px;
@@ -705,8 +703,7 @@ margin-left: 19px;
     font-family: Inter;
 font-size: 36px;
 font-weight: 700;
-line-height: 46px;
-letter-spacing: 0em;
+line-height: 1.277;
 text-align: left;
 height: 35.99px;
 margin-bottom: 31.99px;
@@ -715,7 +712,7 @@ margin-bottom: 31.99px;
     font-family: Inter;
 font-size: 16px;
 font-weight: 400;
-line-height: 30px;
+line-height: 1.875;
 letter-spacing: 0em;
 text-align: left;
 height:170.95px;
@@ -767,7 +764,7 @@ width: 626px;
     font-family: Inter;
 font-size: 36px;
 font-weight: 700;
-line-height: 56px;
+line-height: 1.5555;
 text-align: center;
 padding:104px 390px 0 390px;
 
@@ -776,7 +773,7 @@ padding:104px 390px 0 390px;
     font-family: Inter;
 font-size: 18px;
 font-weight: 400;
-line-height: 32px;
+line-height: 1.7777;
 letter-spacing: 0em;
 text-align: center;
 margin: 0.9rem 185px 0 185px; 
@@ -809,14 +806,14 @@ margin: 0.9rem 185px 0 185px;
     font-family: Inter;
 font-size: 24px;
 font-weight: 700;
-line-height: 56px;
+line-height: 2.3333;
 margin-top: -5px;
 }
 
 .grid-content p{
 font-size: 18px;
 font-weight: 400;
-line-height: 32px;
+line-height: 1.777;
 }
 .grid-info:nth-child(5){
     margin-top: -2rem;
@@ -834,7 +831,7 @@ line-height: 32px;
     font-family: Inter;
 font-size: 28px;
 font-weight: 700;
-line-height: 56px;
+line-height: 2;
 letter-spacing: 0em;
 text-align: center;
 color: white;
@@ -936,7 +933,7 @@ margin-top: 2rem;
     font-family: Poppins;
 font-size: 36px;
 font-weight: 700;
-line-height: 46px;
+line-height: 1.2777;
 text-align: center;
 }
 .first-banner{
@@ -967,7 +964,7 @@ text-align: center;
     font-family: Inter;
 font-size: 22px;
 font-weight: 300;
-line-height: 38px;
+line-height: 1.72727;
 margin: 0 214px 98px 213px;
 text-align: center;
 
@@ -1382,10 +1379,6 @@ margin-top: 75.53px;
     }
 }
 @media screen  and (max-width:982px){
-
-    /* .special-div{
-        bottom: -452px;
-    } */
     .p-container {
         margin: 2rem auto;
         padding: 1rem;}
@@ -1394,7 +1387,7 @@ margin-top: 75.53px;
 .inner-container{
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 4rem;
 }
     .second-arrow,.third-arrow,.four-arrow{
         max-width: 300px;
@@ -1416,11 +1409,13 @@ margin-top: 75.53px;
 .third-arrow{
     margin-left: 29px;
 }
+
 .second-arrow{
-    margin-right: 10px;
+    width: 290px;
+    margin-right: -18px;
 }
 .first-arrow p,.second-arrow p,.third-arrow p,.four-arrow p{
-    margin: 1.68px 49.25px 15.36px 38px;
+    margin: 1.68px 49.25px 15.36px 45px;
 }
 
 .grid-item img{
@@ -1438,7 +1433,7 @@ margin-top: 75.53px;
         font-size: 26px;
     }
     .survey-software p{
-        font-size: 14px;
+        
         margin-bottom: 1rem;
     }
   
@@ -1454,7 +1449,7 @@ margin-top: 75.53px;
 
 
 .read-more{
-    margin-top: 2rem;
+    margin: 2rem auto 80px auto;
 }
 }
 @media screen  and (max-width:596px){
@@ -1579,6 +1574,7 @@ margin-bottom: 0.5rem;
 @media screen and (max-width:1275px){
 .grid-container{
     margin: 0 auto;
+    padding: 3rem;
 }
 }
 @media screen and (max-width:968px){
@@ -1625,7 +1621,7 @@ margin-bottom: 0.5rem;
         margin-left:-57px
     }
 .third-arrow   { width: 289px;}
-    .second-arrow{width: 241px;}
+   
     .Application-Container-head {
         padding: 1rem;
         width: auto;
@@ -1644,16 +1640,15 @@ margin-bottom: 0.5rem;
         grid-template-columns: repeat(4,auto);
         gap: 1.5rem;
     }
-    
+/*     
     .survey-footer {
         margin: 1rem;
-    }
+    } */
 
     .grid-container img{
     width: 280px;
     height: 280px;
     margin-left:  auto ;
-    margin-top: -1rem;
     }
     .special-div-2 h2{
         margin: 1rem;
@@ -1673,9 +1668,6 @@ margin-bottom: 0.5rem;
     .row1-content{
         align-self: flex-start;
         margin-left: 3rem;
-    }
-    .row-content p, .row1-content p, .row2-content p{
-        width: auto;
     }
     .row2-content{
         margin-right: 2rem;
@@ -1720,14 +1712,12 @@ margin-bottom: 0.5rem;
     .row-content h4, .row1-content h4, .row2-content h4{
         font-size: 1.9rem;
     }
-    .row-content p, .row1-content p, .row2-content p{
-        line-height: 1.6;
-    }
-
-
-
 }
-
+@media screen and (max-width:678px){
+    .grid{
+        grid-template-columns: auto auto;
+    }
+}
 
 
 @media screen and (max-width:768px){
@@ -1737,27 +1727,23 @@ margin-bottom: 0.5rem;
         margin-right: 10px;
     }
     .Application-Container-head p{
-        padding: 0 1.5rem;
+    
         width: auto;
       }
       .arrow-container{
         margin-top: 5rem;
     }
-    .software-head {   
-        font-size: 1.5rem;
-    }
+    
     .survey-software p {
         margin: 0 auto;
         line-height: 1.6;
         height: auto;
     }
-    .read-more {
-        margin: 2rem auto;
-    }
+    
     .grid-content h4 { 
-        line-height: 1.6;
+     font-size: 21px;
     }
-    .grid-container img:last-child {display: none;}
+    
     .feature-container-1{
         margin: 0 auto 2rem;
     }
@@ -1832,6 +1818,11 @@ margin-bottom: 0.5rem;
         gap: 2rem;
       }
     }
+@media screen and (max-width:330){
+    .grid{
+        grid-template-columns: auto !important;
+    }
+}
 @media screen and (max-width:890px){
     .footer-container {
         grid-template-columns: auto auto auto ;
@@ -1853,7 +1844,8 @@ margin-bottom: 0.5rem;
 @media screen and (max-width:542px){
 
 .special-div-3 h2{
-    line-height: 40px;
+    font-size: 23px;
+   
 }
 .special-div-3-input{
     width: 90%;
@@ -1879,24 +1871,30 @@ margin-bottom: 0.5rem;
         width: 100%;
         margin-bottom: 2rem;
     }
+    .grid-content p {
+        font-size: 1rem;
+    }
     .row-content, .row1-content, .row2-content{
         width: 100%;
     }
     .spanned {
-        /* height: 1rem; */
+
         font-weight: 300;
         font-size: 12px;
         text-align: center;
-        /* line-height: 14px; */
+ 
+    }
+    .first-row, .second-row, .third-row{
+        margin-bottom: 6rem;
     }
     .Application-Container-head h3{
-        height: auto;
+        
         width: auto;
         margin-top: 2rem;
     }
-    .grid{
-        margin:0 auto;
-        grid-template-columns: repeat(2,auto);
+    .last-row {
+        margin-bottom: auto;
+        padding-bottom: 5rem !important;
     }
     .second-row, .third-row {
       
@@ -1906,11 +1904,10 @@ margin-bottom: 0.5rem;
         margin: 0 auto;
     }
     .p-container{
-        margin:  12rem auto auto auto ;
+        font-size: 1rem;
     }
     .head i{
         height: 15px;
-        margin-right: 1rem;
     }
     .product-content p{
         margin-top: 2rem;
@@ -1927,17 +1924,21 @@ margin-bottom: 0.5rem;
         margin-left: 9px;
         margin-right: 18px;
       }
+      .row-content p, .row1-content p, .row2-content p{
+        font-size: 14px;
+      }.heading{
+        padding-top: 5rem;
+      }
       .special-div-2{
         height: auto;
-            width: auto;
+        width: 93vw !important;
             margin: 6rem auto;
         }
-      
-   
-      .special-div-2 h2{    
-width: 90vw;
-      }
-      
+
+        .special-spanned b{
+            margin: .2rem auto;
+            
+        }
       .special-div-2-input input{
      border-radius: 5px;
      margin-left: 4rem;
@@ -1953,24 +1954,20 @@ width: 90vw;
     margin-top: -8rem;
 }
 .row-content h4,.row1-content h4,.row2-content h4{
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 1rem;
 }
 .first-row img, .second-row img {
     margin: 1.5rem auto;
   }
-.row2-content p{
-    width: 400px;
-}
 .row-content p,.row1-content p{
-    width:auto;
-    height: auto;
+    font-size: 14px;
 }
 .customer-page {
     height: auto;
   }
   .heading p {
-    margin: 0.9rem 0.5rem 2rem 0.5rem;
+  font-size: 1rem;
   }
   .grid-row {
     grid-template-columns: auto;
@@ -1984,9 +1981,6 @@ width: 90vw;
   .special-div-3 {
     margin:0 auto;
     height: auto;
-  }
-  .special-div-3 h2{
-    padding: 30px 10px 0 10px;
   }
   .special-div-3-input{
     display: block;
@@ -2015,7 +2009,7 @@ width: 90vw;
     margin-top:5rem
   }
 .banner-header h4 {
-    font-size: 33px;
+    font-size: 32px;
     font-weight: 600;
 }
 .mask-group img:first-child,.mask-group img:nth-child(4) {
@@ -2037,8 +2031,11 @@ width: 90vw;
       .mask-input button{
         margin-top: .5rem;
       }
+      .maskgroup-container h3{
+        margin: 2rem auto 3rem;
+      }
       .mask-spanned {
-        margin: auto;
+        margin: 1rem auto;
         width: auto;
       }
       .footer-container {
@@ -2080,7 +2077,7 @@ width: 90vw;
     }
     .special-div-2{
         height: auto;
-        width: 96%;
+      
     }
     
     .special-div-2-input button{
@@ -2095,14 +2092,6 @@ width: 90vw;
         width: 100%;
         margin: 1rem auto;
         border-radius: 5px;
-    }
-}
-@media screen and (max-width:632px) {
-    /* .special-div-3 {
-        margin-top: 204px !important;
-    } */
-    .customer-grid{
-        height: auto;
     }
 }
 @media screen  and (max-width:606px){
@@ -2162,45 +2151,36 @@ width: 90vw;
     }
     .email{
         width: auto;
-margin-bottom: 1rem;
+        margin-bottom: 1rem;
     }
     .software-head{
         padding: 0 1rem;
+        font-size: 32px;
     }
-    .survey-software p{
-        line-height: 1.3;
+    .Application-Container-head p{
+        font-size: 1rem ;padding: auto;
     }
     .Application-Container-head h3{
-        margin: 1rem;
+        margin: 3rem auto;
+    font-size: 32px;
     }
-    .grid-container{
-        margin-top: 7rem;
-    }
-    
       .body h3{
         height: auto;
       }
-      .special-div-2 h2 {
-        line-height: 1;
-     }
+      .poster{
+margin-bottom: 7rem;
+      }
      .special-spanned{
+        margin: 1rem auto 1.5rem auto;
         width: 90%;
 text-align: center;
      }
-     .customer-page {
-        margin-top: 44rem;
-    
-    }
+     
       .last-row .row2-content h4 {
-        font-size: 1.4rem;
+        font-size: 2rem;
       }
       .heading h3 {
-        padding: 45px 25px 0 25px;
-        font-size: 28px;
-        line-height: 1.5;
-      }
-    .customer-grid {
-        margin: 49px 1rem 0 1rem;
+        font-size: 26px;
       }
     .special-div-3 {
         margin: 46.7rem 0 0 0;
@@ -2214,14 +2194,23 @@ text-align: center;
     .review-head p {
                 margin-top: 3rem;
               }
-    .banner-header h4 {
-                margin: 2rem;
-    }
 }
 @media screen and (max-width:760px){
-    row-content {
+    .row-content {
         width: auto;
 }
+}
+
+@media screen and (max-width:355px){
+
+
+    .arrow-set{
+        width: 100%;
+    }
+    .third-arrow {
+        width: auto;
+    margin-left: auto;}
+
 }
 @media screen and (max-width:495px){
 
@@ -2248,10 +2237,11 @@ text-align: center;
 }
 
 }
+
 @media screen and (max-width:425px){
 
     .feature-container-1 h3{
-        font-size: 30px;margin: 1rem auto;
+        font-size: 2rem;margin: 6.5rem auto 2rem auto;
     }
     .special-div-2{
         bottom: -531px;
@@ -2280,9 +2270,7 @@ text-align: center;
     .third-row img{
         display: block;
     }
-.read-more{
-    margin: 1rem auto
-}
+
 .special-div-3 h2 {
     padding: 56px 10px 0 10px;
 }
@@ -2298,14 +2286,14 @@ text-align: center;
     }
 
         .survey-software p {
-            line-height: 1.1;
-            font-size: 15px;
+            
+            font-size: 16px;
+          }
+          .grid-container{
+            padding: 0;
           }
     .grid{
         width: 100%;
-margin-left: auto;
-margin-top: 1rem;
-height: auto;
     }
     
       .body, .body-2 {
@@ -2315,38 +2303,23 @@ height: auto;
       .body h3,.body-2 h3{
         font-size: 21px;
       }
-      /* .special-div-2-input {
-        margin: 1rem -1.5rem;} */
-        .row-content h4, .row1-content h4, .row2-content h4 {
-            font-size: 22px;}
-
+      .arrow-para{
+        font-size: 1rem;
+      }
     .first-row img, .second-row img {
                 min-width: 200px;
                 width: 300px;
                 object-fit: cover;
 }
-.last-row .row2-content h4 {
-    font-size: 1.3rem;
-  }
-  .row2-content p {
-    width: 300px;}
     .customer-page {
         margin-top: 65rem;
         height: auto;
       }
-    .heading h3 {
-        padding: 30px 25px 0 25px;
-        line-height: 1.2;
-        font-size: 1.5rem;}
-
     .heading p {
             margin: 0.9rem 0.5rem 2.5rem 0.5rem;
           }
-          .customer-grid {
-            margin: 0px 1rem 0 1rem;
-          }   
     .special-div-3 {
-            margin-top: 76.7rem }
+           padding: 1rem; }
             .review-head {
                 padding: 7px 40px 2rem 40px;
               }
@@ -2362,10 +2335,10 @@ height: auto;
 
     }
     .customer-review h3 {
-        margin: 260px auto 50px auto;
+        margin: 146px auto 50px auto;
       }  
       .customer-review p{
-        line-height: 1.6;
+       
         font-size: 20px;
       }  
 }
@@ -2373,6 +2346,19 @@ height: auto;
 
 
 /* custom responsiveness */
+
+@media screen and (max-width:968px){
+    .grid{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:719px){
+
+    .grid-item p{
+        font-size: 15px;
+    }
+}
 @media screen and (max-width:1371px){
 .heading h3{
     padding: 2rem;
@@ -2401,7 +2387,7 @@ height: auto;
     width: auto;
     height: auto;
     text-align: center;
-    margin: auto;
+    margin: 1.5rem auto;
 }
 .maskgroup-container {
    
@@ -2439,6 +2425,7 @@ height: auto;
 
     .feature-container-1 p{
         margin: 0 auto;
+        font-size: 1rem;
     }
     .feature-main {
         margin: 0 auto;}
@@ -2548,8 +2535,7 @@ height: auto;
         height: auto;}
         .row-content h4, .row1-content h4, .row2-content h4 {
 
-            height: auto;
-            margin-bottom: auto;}
+            height: auto;}
             .first-row img, .second-row img, .third-row img {
                 height: auto;
                 width: 45%;
@@ -2573,7 +2559,6 @@ height: auto;
 
     .row2-content h4{
         height: auto;
-    margin-bottom:auto;
     }
 .footer-container {
     display: grid;
@@ -2619,32 +2604,17 @@ height: auto;
     .row-content p, .row1-content p, .row2-content p{
         width: auto;
     }
-    /* .special-div-3{
-        margin-top: 142px;
-    } */
+ 
 }
-
-
-
-
-
-@media screen  and (max-width:623px){
-    .poster-content h2,.Application-Container-head h3 ,.special-div-2 h2,.feature-container-1 h3{
-        line-height: 1.2;
-    }
-    .poster-content p,.Application-Container-head p,.arrow-para,.p-container,.feature-container-1 p{
-        line-height: 1.6;
-    }
+@media screen  and (max-width:523px){
+    .poster-content p {
+        margin: 1rem auto;}
 }
-@media screen  and (max-width:813px){
-.review-head {
-    padding: 16rem 0 4rem 0;
+@media screen  and (max-width:400px){
+    .poster-content p {
+        
+        margin:  auto;}
 }
-
-}
-/* @media screen  and (max-width:1234px){
-   .special-div{ margin: 104px 90px 0 90px ;
-}} */
 @media screen  and (max-width:928px){
     .special-div-3 {
         margin-top: 173px;
@@ -2668,13 +2638,7 @@ height: auto;
     .banner-header h4{
     padding: 1rem;}
 }
-@media screen and (max-width:777px){
 
-.review-head {
-    padding: 24rem 0 0 4rem;
-}
-
-}
 @media screen and (max-width:578px){
 
     .special-div-3 {
@@ -2724,7 +2688,15 @@ flex-direction: column;}
 
 .email,.poster-btn{
     width: 100%;
-}}
+}
+    .special-div-2 h2 {
+        font-size: 26px;
+        margin: 1rem auto;
+
+    }
+
+
+}
 @media screen and (max-width:767px){
 
 
@@ -2762,6 +2734,11 @@ flex-direction: column;}
     grid-column: 1 /span 2;}
     
     
+}
+@media screen and (max-width:422px){
+    .nav-list{
+        width: 100%;
+    }
 }
 @media screen and (max-width:713px){
 
@@ -2857,8 +2834,8 @@ text-align: center;
     }
     .body i {
         margin-left: 38px;}
-    .head i {
-            padding-right: 44px;}
+    /* .head i {
+            padding-right: 44px;} */
     .first-banner, .second-banner {
     
                 padding: 0 0.5rem}
@@ -2866,12 +2843,9 @@ text-align: center;
 @media screen and (max-width:524px){
 
     .arrow-para{
-        margin: 0 auto;
+        margin: 2.5rem auto;
     }
 }
-/* @media screen and (max-width:400px){
-.grid-item{
-width: 90%;}} */
 @media screen and (max-width:721px){
     .product-content{
         width: auto;
@@ -2897,7 +2871,7 @@ width: 90%;}} */
 @media screen and (max-width:1200px){
 
     .p-container{
-        margin: 2rem auto;
+        margin: 4rem auto;
     }
 }
 @media screen and (max-width:864px){
@@ -2908,6 +2882,7 @@ width: 90%;}} */
 }
 @media screen and (max-width:475px){
     .customer-review h3{
+        margin: 10px auto auto auto;
         line-height: 1.6;
         font-size: 30px;
     }
@@ -2921,16 +2896,28 @@ width: 90%;}} */
 
 @media screen and (max-width:590px){
 
+
+    .nav-list{
+        align-items: flex-start;
+    }
+    .nav-details {
+        margin-left: 0;
+        align-self: flex-start;}
     .special-item-1{
         padding-bottom: 2rem;
-        border-bottom: 1px solid white;
+        /* border-bottom: 1px solid white; */
     }
 }
-
+@media screen and (max-width:1118px){
+    .head h3 {
+        width: auto;
+        margin: 0 auto;}
+  }
 @media screen and (max-width:1181px){
     .arrow-first{
         height: auto;
     }
+    
     .Application-Container-head p {
 
         margin: 0 auto;
@@ -2939,20 +2926,40 @@ width: 90%;}} */
         height: auto;}
         .review-head {
             padding: 4rem 0 0 0 ;}
-            .special-div-3 h2{
-                line-height: 1.4;
-            }
-    
+            
 }
 
 
 
         /* Ghost css */
-        /* * {
+        * {
             background: #000 !important;
             color: #0f0 !important;
             outline: solid #f00 1px !important;
-          } */
+          }
+
+          @media screen  and (max-width:480px){
+
+            .special-div-2{
+                padding: 0 1rem;
+            }
+          }
+
+@media screen  and (max-width:425px){
+    .poster-content p{
+        padding: 0;
+    }
+
+    .survey-software,.feature-main,.customer-grid,.Application-Container-head,.customer-review h3{
+        padding: 0;
+    }
+
+    .survey-footer,.customer-review,.banner-header{
+        margin-top: 120px;
+    }
 
 
+}
 
+
+          
