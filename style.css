@@ -2005,7 +2005,7 @@ width: 90vw;
   .special-spanned-2{
     height: auto;
     width: auto;
-    margin: 1rem 3rem 0 2rem;
+    margin:1rem auto;
     padding-bottom: 1rem;
   }
   .review-head {
@@ -2231,7 +2231,8 @@ text-align: center;
     flex-direction: column;
 }
 .mask-input input{
-    width: 100%;
+    width: 96%;
+    margin: 0 auto;
     border-radius: 5px;
 }
 .mask-input input::placeholder{
@@ -2241,7 +2242,7 @@ text-align: center;
     text-align: center;
 }
 .mask-input button{
-    width: 100%;
+    width: 96%;
     margin: 1rem auto;
     border-radius: 5px;
 }
@@ -2915,6 +2916,14 @@ width: 90%;}} */
 @media screen and (max-width:903px){
     .special-div-2{
         width: 96%;
+    }
+}
+
+@media screen and (max-width:590px){
+
+    .special-item-1{
+        padding-bottom: 2rem;
+        border-bottom: 1px solid white;
     }
 }
 
