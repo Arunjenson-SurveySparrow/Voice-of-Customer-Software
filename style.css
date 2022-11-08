@@ -225,7 +225,7 @@ margin-bottom: 28px;
 .special-div{
     max-width: 1274px;
     margin-top: 104px;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
     background-color: #33393F;
     color: white;
     margin: -433px auto auto auto;
@@ -547,50 +547,7 @@ line-height: 30px;
 text-align: center;
 margin: 0 34px 0 34px ;
 }
-.body{
-    display: flex;
-    margin-top: 24px;
-    margin-left: 69px;
-}
-.body i{
-    margin-left: 59px;
-    padding-top: 3px;
-    width: 15px;
-    height: 2rem;
-    padding-right: 12px;
-}
-.body h3{
-    font-family: Inter;
-font-size: 22px;
-font-weight: 600;
-line-height: 32px;
-text-align: center;
-height: 24px;
-width: 571px;
-}
-.body-2{
-    height: 32px;
-    width: 665px;
-    display: flex;
-    margin-left: 45px;
-    margin-top: 24px;
-    margin-bottom: 40px;
-    align-items: center;
-    
-}
-.body-2 h3{
-    font-family: Inter;
-font-size: 22px;
-font-weight: 600;
-line-height: 32px;
-text-align: center;
-margin-right: 20px;
-letter-spacing: 0em;
-width: 611px;
-}
-.body-2 i{
-    margin-left: 39px;
-}
+
 .special-div-2{
 
     width: 97%;
@@ -1544,7 +1501,7 @@ margin-top: 75.53px;
    margin-bottom: 0.5rem;
 }
 .special-div-3 h2{
-    padding: 30px 150px 0  150px;
+    padding: 30px 150px 0  150px !important;
 width: auto;
 margin-bottom: 0.5rem;
 }
@@ -1597,6 +1554,12 @@ margin-bottom: 0.5rem;
         gap: 5.5rem;
     }
     
+}
+@media screen and (max-width:1227px){
+
+    .special-div{
+        padding: 0.5rem;
+    }
 }
 @media screen and (max-width:1177px){
 
@@ -1861,9 +1824,6 @@ margin-bottom: 0.5rem;
     .grid-container{
         width: auto;
     }
-    .body-2 {
-        margin-bottom: 24px;
-    }
     .poster{
         margin-left: 1rem;
     }
@@ -1904,7 +1864,12 @@ margin-bottom: 0.5rem;
         margin: 0 auto;
     }
     .p-container{
+        margin: 5rem auto !important;
         font-size: 1rem;
+        padding: 0;
+    }
+    .maskgroup-heading{
+        margin-bottom: 6.5rem;
     }
     .head i{
         height: 15px;
@@ -1916,23 +1881,15 @@ margin-bottom: 0.5rem;
         width: auto;
         margin: auto;
     }
-    .body,.body-2{
-        width: auto;
-        height: auto;
-    }
-    .body i,.body-2 i {
-        margin-left: 9px;
-        margin-right: 18px;
-      }
+    
       .row-content p, .row1-content p, .row2-content p{
         font-size: 14px;
       }.heading{
         padding-top: 5rem;
       }
       .special-div-2{
-        height: auto;
         width: 93vw !important;
-            margin: 6rem auto;
+            margin: 5rem auto;
         }
 
         .special-spanned b{
@@ -1957,7 +1914,7 @@ margin-bottom: 0.5rem;
     font-size: 30px;
     margin-bottom: 1rem;
 }
-.first-row img, .second-row img {
+.first-row img, .second-row img ,.third-row img{
     margin: 1.5rem auto;
   }
 .row-content p,.row1-content p{
@@ -1968,6 +1925,7 @@ margin-bottom: 0.5rem;
   }
   .heading p {
   font-size: 1rem;
+  padding: 1rem 0 !important;
   }
   .grid-row {
     grid-template-columns: auto;
@@ -2011,6 +1969,7 @@ margin-bottom: 0.5rem;
 .banner-header h4 {
     font-size: 32px;
     font-weight: 600;
+    padding:  0 !important;
 }
 .mask-group img:first-child,.mask-group img:nth-child(4) {
     display: none;
@@ -2032,7 +1991,7 @@ margin-bottom: 0.5rem;
         margin-top: .5rem;
       }
       .maskgroup-container h3{
-        margin: 2rem auto 3rem;
+        margin: 2rem auto 3rem !important;
       }
       .mask-spanned {
         margin: 1rem auto;
@@ -2094,11 +2053,7 @@ margin-bottom: 0.5rem;
         border-radius: 5px;
     }
 }
-@media screen  and (max-width:606px){
-    .body i{
-        padding-right: 31px;
-    }
-}
+
 
 @media screen  and (max-width:676px){
     .review-head {
@@ -2136,7 +2091,9 @@ margin-bottom: 0.5rem;
   .special-div-2-input input{
     width: 98%;
     
-  }}
+  }
+  
+}
 @media screen  and (max-width:1015px){
 .grid-row{
     height: auto;
@@ -2154,7 +2111,7 @@ margin-bottom: 0.5rem;
         margin-bottom: 1rem;
     }
     .software-head{
-        padding: 0 1rem;
+        padding:   0;
         font-size: 32px;
     }
     .Application-Container-head p{
@@ -2164,11 +2121,8 @@ margin-bottom: 0.5rem;
         margin: 3rem auto;
     font-size: 32px;
     }
-      .body h3{
-        height: auto;
-      }
       .poster{
-margin-bottom: 7rem;
+margin-bottom: 7.5rem;
       }
      .special-spanned{
         margin: 1rem auto 1.5rem auto;
@@ -2181,13 +2135,15 @@ text-align: center;
       }
       .heading h3 {
         font-size: 26px;
+        padding: 0 !important;
       }
     .special-div-3 {
         margin: 46.7rem 0 0 0;
         height: auto;
         width: 100%;}
     .review-head h3 {
-            width: auto;
+            padding: 0 !important;
+            margin: 0 auto !important;
             margin-top: 4rem;
             font-size: 28px;
             line-height: 1.4;}
@@ -2244,7 +2200,7 @@ text-align: center;
         font-size: 2rem;margin: 6.5rem auto 2rem auto;
     }
     .special-div-2{
-        bottom: -531px;
+        bottom: -513px;
     }
   .input-form{
         padding: auto;
@@ -2278,10 +2234,10 @@ text-align: center;
         text-align: center;
     }
     .poster {
-        margin-left: .3rem;
+        margin-left: 0;
       }
       .feature-container-1 {
-        padding-top: 267px;
+        padding-top: 208px;
     
     }
 
@@ -2294,15 +2250,8 @@ text-align: center;
           }
     .grid{
         width: 100%;
+        margin: 1rem 0 5rem 0!important;
     }
-    
-      .body, .body-2 {
-        font-size: 21px;
-        margin-left: 1rem;
-      }
-      .body h3,.body-2 h3{
-        font-size: 21px;
-      }
       .arrow-para{
         font-size: 1rem;
       }
@@ -2312,17 +2261,23 @@ text-align: center;
                 object-fit: cover;
 }
     .customer-page {
-        margin-top: 65rem;
+        
         height: auto;
       }
     .heading p {
             margin: 0.9rem 0.5rem 2.5rem 0.5rem;
           }
+          .customer-page{
+            position: relative;
+          }
     .special-div-3 {
-           padding: 1rem; }
-            .review-head {
-                padding: 7px 40px 2rem 40px;
-              }
+           padding: 1rem;
+           position: absolute;
+    bottom: -9%;
+         }
+         .review-head {
+            padding: 17rem 0 0 0 !important;
+        }
     .first-banner {
          grid-template-columns: repeat(1,auto);
          margin: 87px 0px 1rem 40px;
@@ -2334,13 +2289,14 @@ text-align: center;
         justify-content: center;
 
     }
-    .customer-review h3 {
-        margin: 146px auto 50px auto;
-      }  
+    
       .customer-review p{
        
         font-size: 20px;
-      }  
+        padding: 1rem 0;
+      } 
+      .poster-content h2 {
+        padding: 0} 
 }
 
 
@@ -2553,6 +2509,7 @@ text-align: center;
         height: auto;
         width: auto;
         margin: 1rem auto;
+        padding: 1rem 0;
     }
 }
 @media screen and (max-width:1091px){
@@ -2584,6 +2541,7 @@ text-align: center;
 }
 .special-div-3{
     height: auto;
+    padding-bottom: 2rem;
 }
 
 }
@@ -2620,7 +2578,7 @@ text-align: center;
         margin-top: 173px;
     }
     .special-div-3 h2 {
-        padding: .5rem;
+        padding: .5rem !important;
     }
     .heading p {
         margin: 0 auto;
@@ -2638,21 +2596,11 @@ text-align: center;
     .banner-header h4{
     padding: 1rem;}
 }
-
-@media screen and (max-width:578px){
-
-    .special-div-3 {
-        margin-top: 212px;
-    }
-}
-
 @media screen and (max-width:848px){
     .special-div-3 {
         margin-top: 68px;
     }
-    .customer-grid {
-        height: auto;
-    }
+    
     .maskgroup-heading p {
         margin: 0 auto;
     }
@@ -2663,24 +2611,7 @@ text-align: center;
         height: auto;
 }
 }
-@media screen and (max-width:578px){
 
-.body i {
-    margin-right: 17px;
-}}
-@media screen and (max-width:525px){
-
-
-    .body i {
-        margin-right: 17px;
-    }}
-@media screen and (max-width:485px){
-
-    .customer-page {
-        margin: 0 auto;
-        height: auto;
-    }
-}
 @media screen and (max-width:480px){
 .input-form{
 width: 100%;
@@ -2829,13 +2760,7 @@ text-align: center;
     }
 @media screen and (max-width:723px){
 
-    .body-2 i {
-        margin-right: 1.2rem;
-    }
-    .body i {
-        margin-left: 38px;}
-    /* .head i {
-            padding-right: 44px;} */
+   
     .first-banner, .second-banner {
     
                 padding: 0 0.5rem}
@@ -2850,9 +2775,7 @@ text-align: center;
     .product-content{
         width: auto;
     }
-    .body-2{
-        width: auto;
-    }
+   
     .grid-container{
     margin:1.5rem auto;}
 .grid-item{
@@ -2882,7 +2805,7 @@ text-align: center;
 }
 @media screen and (max-width:475px){
     .customer-review h3{
-        margin: 10px auto auto auto;
+        margin: 0 auto;
         line-height: 1.6;
         font-size: 30px;
     }
@@ -2932,7 +2855,7 @@ text-align: center;
 
 
         /* Ghost css */
-/*         * {
+        /* * {
             background: #000 !important;
             color: #0f0 !important;
             outline: solid #f00 1px !important;
@@ -2955,11 +2878,96 @@ text-align: center;
     }
 
     .survey-footer,.customer-review,.banner-header{
-        margin-top: 120px;
+        margin-top: 6.5rem;
     }
 
 
 }
 
+.product-content {
+    max-width: 720px;}
+.accordion__item ,.accordion__item__title  {
+      display: block;
+      padding: 20px;
+      cursor: pointer;
+      
+      position: relative;}
+      .accordion__item__title {
+        font-weight: 600;
+        line-height: 1.4545;
+        font-size: 22px;
+      }
+      .accordion__item {
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-top: -1rem;
+        padding: 20px 0;
+        font-weight: bold;
+        text-align: center;
+        transition: 0.3s ease-in-out all;
+        
+      }
+      .accordion__item__title:after  { 
+      
+        content: '+';
+        position: absolute;
+        right: 20px;
+        /* top: 50%; */
+       
+      }
+    .accordion__item a{
+        text-decoration: none;
+    }
+    
+    .accordion__item__content {
+     display: none; 
+      padding: 20px;
+    line-height: 1.875;
+    
+    font-size: 1rem;
+    font-weight: 400;
+    }
+    
+      .accordion__item__content:target {
+        display: block;
+      
+      }
+    
+      @media screen  and (max-width:700px){
+        .accordion__item__title:after{
+            right: 10px;
+        }
+      }
+      @media screen  and (max-width:456px){
+        .accordion__item__title{
+            text-align: left;
+        }
+      }
+      @media screen  and (max-width:375px){
+        .accordion__item__title{
+            text-align: center;
+        }
+      }
+      @media screen  and (max-width:554px){
 
-          
+      .accordion__item__title{
+        font-size: 20px;
+        padding: 20px  28px 10px 0;
+        
+    }
+    .accordion__item__title:after{
+        top: 28%;
+    }
+    .accordion__item__content{
+        font-size: 0.875rem; 
+        padding:  0;
+    }
+}
+@media screen  and (max-width:425px){
+
+    .accordion__item__title {
+        text-align: center;}
+    .customer-grid{
+        padding-bottom: 17rem !important;
+    }
+}
