@@ -1172,10 +1172,11 @@ margin-top: 75.53px;
      .nav-btn{
         display: block;
         margin-left:auto;
-        padding: .5rem .75rem;
+        padding: .5rem .85rem;
         background-color: #19B885;
         border: none;
-        color: white;
+        color: black;
+         font-size;1rem;
         border-radius:5px ;       
 }
 .Application-Container-head p {
@@ -1203,9 +1204,9 @@ margin-top: 75.53px;
         display: flex;
         align-items:center;
       }
-      .nav-btn{
+/*       .nav-btn{
         padding: 0.55rem 0.75rem  ;
-      }
+      } */
       .nav-list{
         margin: 0 auto;
         display: flex;
@@ -2231,7 +2232,9 @@ text-align: center;
         width: auto;
         height: auto;}
     .nav-bar{
-        margin: 0 auto;
+           margin: 0 auto !important;
+    padding: 0;
+}
     }
     .third-row img{
         display: block;
